@@ -1,0 +1,19 @@
+{
+    "name": "attempt-at-scrape-utility",
+    "version": "0.0.1",
+    "description": "A utility for screenshotting stuff",
+    "main": "handler.js",
+    "author": "txmadison",
+    "license": "no",
+    "dependencies": {
+        "@slack/web-api": "^6.7.2",
+        "@sparticuz/chrome-aws-lambda": "^14.4.1",
+        "aws-sdk": "^2.1170.0",
+        "mysql": "^2.18.1",
+        "puppeteer-core": "^14.4.1",
+        "puppeteer-extra": "^3.3.0",
+        "puppeteer-extra-plugin-adblocker": "^2.13.1",
+        "puppeteer-extra-plugin-block-resources": "^2.4.1",
+        "puppeteer-extra-plugin-stealth": "^2.10.4"
+    }
+}
